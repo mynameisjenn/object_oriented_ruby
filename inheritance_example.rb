@@ -34,9 +34,16 @@ class Bike < Vehicle
 end
 
 car = Car.new
+bike = Bike.new
 
 p car
-car.accelerate
+car.accelerate 
+car.honk_horn
 p car
+
+p bike
+bike.accelerate
+bike.ring_bell
+p bike
 
 
